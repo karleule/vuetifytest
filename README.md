@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/karleule/vuetifytest.svg?branch=master)](https://travis-ci.org/karleule/vuetifytest)
+
 # vuetifytest
 
 > A Vue.js project
