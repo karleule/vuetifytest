@@ -3,10 +3,14 @@ node_js:
   - "7"
   - "8"
 
-  deploy:
-  provider: pages
-  skip-cleanup: true
-  github-token: $GITHUB_TOKEN  # Set in travis-ci.org dashboard, marked secure
-  keep-history: true
-  on:
-    branch: gh-pages
+branches:
+  only:
+  - master
+
+deploy:
+provider: pages
+skip-cleanup: true
+github-token: $GITHUB_TOKEN  # Set in travis-ci.org dashboard, marked secure
+keep-history: true
+on:
+  branch: gh-pages
